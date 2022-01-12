@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "143211497108",
+    "project_id": "campy-m3aya",
+    "storage_bucket": "campy-m3aya.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143211497108:android:1befd0cefa9b58d8049681",
+        "android_client_info": {
+          "package_name": "com.example.CampiM3aya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143211497108-32a7l1jells7bplbmqk4e88jspkcit8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9WmYRGTj8ffMK7GFCfoHD0f23eZB6Tzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143211497108-32a7l1jells7bplbmqk4e88jspkcit8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
