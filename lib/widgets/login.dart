@@ -1,5 +1,4 @@
 import 'package:CampiM3aya/screens/home.dart';
-
 import 'package:flutter/material.dart';
 
 class Login extends StatefulWidget {
@@ -8,6 +7,8 @@ class Login extends StatefulWidget {
 }
 
 class _LoginState extends State<Login> {
+  TextEditingController emailController = new TextEditingController();
+  TextEditingController passwordController = new TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -39,6 +40,7 @@ class _LoginState extends State<Login> {
               decoration: BoxDecoration(
                   border: Border(bottom: BorderSide(color: Colors.grey[300]))),
               child: TextField(
+                controller: emailController,
                 decoration: InputDecoration(
                     border: InputBorder.none,
                     hintText: "Email",
@@ -48,6 +50,7 @@ class _LoginState extends State<Login> {
             Container(
               padding: EdgeInsets.all(8.0),
               child: TextField(
+                controller: passwordController,
                 obscureText: true,
                 decoration: InputDecoration(
                     border: InputBorder.none,
@@ -75,6 +78,19 @@ class _LoginState extends State<Login> {
                             borderRadius: BorderRadius.circular(18.0),
                             side: BorderSide(color: Colors.white)))),
                 onPressed: () {
+                  /*context.read<AuthenticationService>().signIn(
+                        email: emailController.text.trim(),
+                        password: passwordController.text.trim(),
+                      );*/
+                  final String email = emailController.text.trim();
+                  final String password = passwordController.text.trim();
+                  if (email.isEmpty) {
+                    print("Email is empty !");
+                  } else {
+                    if (password.isEmpty) {
+                      print("Password is empty !");
+                    }
+                  }
                   Navigator.push(
                       context, MaterialPageRoute(builder: (context) => Home()));
                 },
