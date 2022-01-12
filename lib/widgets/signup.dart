@@ -6,6 +6,9 @@ class SignUp extends StatefulWidget {
 }
 
 class _SignUpState extends State<SignUp> {
+  TextEditingController emailController = new TextEditingController();
+  TextEditingController passwordController = new TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -83,7 +86,17 @@ class _SignUpState extends State<SignUp> {
                         RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(18.0),
                             side: BorderSide(color: Colors.white)))),
-                onPressed: () {},
+                onPressed: () {
+                  final String email = emailController.text.trim();
+                  final String password = passwordController.text.trim();
+                  if (email.isEmpty) {
+                    print("Email is empty !");
+                  } else {
+                    if (password.isEmpty) {
+                      print("Password is empty !");
+                    } 
+                  }
+                },
               ),
             ),
           ],
