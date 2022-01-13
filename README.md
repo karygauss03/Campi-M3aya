@@ -12,7 +12,8 @@ To use Campi M3aya, you will need to clone or install this repository and the fo
 
 ## Some Screenshots
 These are some screenshots from the alpha version of the app.
-![Screenshot_20220113-210555](https://user-images.githubusercontent.com/72917840/149404049-781e99f6-8176-448a-8366-3c505afb1938.jpg)
+<img src="https://user-images.githubusercontent.com/72917840/149404049-781e99f6-8176-448a-8366-3c505afb1938.jpg" width="400" height="900"/>
+
 ![Screenshot_20220113-210603](https://user-images.githubusercontent.com/72917840/149404084-5c3afeac-6959-435b-b006-9a22d7f322bc.jpg)
 ![Screenshot_20220113-210608](https://user-images.githubusercontent.com/72917840/149404099-0fad275c-df95-48d4-89e8-dd1f1f5617b3.jpg)
 ![Screenshot_20220113-210714](https://user-images.githubusercontent.com/72917840/149404106-d40af68f-eeb1-4414-abcb-1c3b1c6ffb4c.jpg)
