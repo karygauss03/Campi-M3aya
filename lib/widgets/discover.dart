@@ -1,3 +1,4 @@
+//Discover widget by Karim Omrane
 import 'package:flutter/material.dart';
 
 class Discover extends StatefulWidget {

@@ -1,3 +1,4 @@
+//Trending part by Karim Omrane
 import 'package:flutter/material.dart';
 import 'package:CampiM3aya/screens/hiking.dart';
 
@@ -9,6 +10,7 @@ class SliderSelector extends StatefulWidget {
 class _SliderSelectorState extends State<SliderSelector> {
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return Stack(
       children: <Widget>[
         Container(
@@ -27,7 +29,7 @@ class _SliderSelectorState extends State<SliderSelector> {
             );
           },
           child: Container(
-            width: 310,
+            width: size.width,
             height: 337,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(12),
@@ -70,7 +72,7 @@ class _SliderSelectorState extends State<SliderSelector> {
           child: Container(
             padding: EdgeInsets.symmetric(horizontal: 16, vertical: 20),
             //color: Colors.lightBlue,
-            width: 337,
+            width: size.width,
             child: Column(
               children: <Widget>[
                 Row(
@@ -104,8 +106,7 @@ class _SliderSelectorState extends State<SliderSelector> {
                 SizedBox(height: 12),
                 Row(
                   children: <Widget>[
-                    Text(
-                        'Camping in Bargou.\nWith Campi M3aya !!',
+                    Text('Camping in Bargou.\nWith Campi M3aya !!',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 12,

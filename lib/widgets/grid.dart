@@ -1,3 +1,4 @@
+//Grid in the explorer part by Karim Omrane
 import 'package:flutter/material.dart';
 
 class GridSelector extends StatefulWidget {
@@ -40,14 +41,7 @@ class _GridSelectorState extends State<GridSelector> {
                 ),
                 SizedBox(width: 14),
                 GestureDetector(
-                  /*onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => ListScreen(),
-                      ),
-                    );
-                  },*/
+                  
                   child: Container(
                     height: 69,
                     width: 148,

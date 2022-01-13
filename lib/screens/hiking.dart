@@ -1,3 +1,5 @@
+//Hiking part by Karim Omrane
+
 import 'package:flutter/material.dart';
 
 class Hiking extends StatefulWidget {
@@ -109,7 +111,7 @@ class _HikingState extends State<Hiking> {
                       Container(
                         margin: EdgeInsets.only(left: 30),
                         decoration: BoxDecoration(
-                            color: Color.fromRGBO(23, 193, 255, 1),
+                            color: Color(0xff5bd4b5),
                             borderRadius: BorderRadius.all(
                               Radius.circular(20),
                             )),

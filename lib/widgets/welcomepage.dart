@@ -1,10 +1,13 @@
+//Welcome Page by Karim Omrane
+
 import 'dart:ui';
 
-import 'package:CampiM3aya/widgets/login.dart';
-import 'package:CampiM3aya/widgets/signup.dart';
+import 'package:CampiM3aya/screens/signupScreen.dart';
+import 'package:CampiM3aya/screens/loginScreen.dart';
 import 'package:flutter/material.dart';
 
 class WelcomePage extends StatefulWidget {
+  static const routeName = 'welcomePage';
   @override
   _WelcomePageState createState() => _WelcomePageState();
 }
@@ -48,6 +51,7 @@ class _WelcomePageState extends State<WelcomePage> {
                         offset: Offset(5.0, 5.0),
                       ),
                     ],
+                    decoration: TextDecoration.none,
                   ),
                 ),
                 SizedBox(height: 10),
@@ -64,6 +68,7 @@ class _WelcomePageState extends State<WelcomePage> {
                         offset: Offset(5.0, 5.0),
                       ),
                     ],
+                    decoration: TextDecoration.none,
                   ),
                 ),
               ],

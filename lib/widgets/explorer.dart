@@ -1,3 +1,4 @@
+//Explorer widget by Karim Omrane
 import 'package:flutter/material.dart';
 
 class Explorer extends StatefulWidget {

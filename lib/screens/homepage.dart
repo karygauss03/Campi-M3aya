@@ -1,3 +1,4 @@
+//Home page by Karim Omrane
 import 'package:CampiM3aya/widgets/discover.dart';
 import 'package:CampiM3aya/widgets/explorer.dart';
 import 'package:CampiM3aya/widgets/grid.dart';
@@ -18,6 +19,7 @@ class _HomePageState extends State<HomePage> {
         child: ListView(
           children: [
             Column(
+              //content of the home page
               children: [
                 Discover(),
                 SliderSelector(),

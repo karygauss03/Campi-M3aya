@@ -1,3 +1,4 @@
+//Home page + Buttom navigation bar by Karim Omrane
 import 'package:CampiM3aya/screens/events.dart';
 import 'package:CampiM3aya/screens/homepage.dart';
 import 'package:CampiM3aya/screens/places.dart';
@@ -6,6 +7,7 @@ import 'package:CampiM3aya/screens/shop.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
+  static const routeName = '/home';
   @override
   _HomeState createState() => _HomeState();
 }
@@ -21,6 +23,7 @@ class _HomeState extends State<Home> {
   Widget currentWidget = HomePage();
   @override
   Widget build(BuildContext context) {
+    //Bottom Nav Bar
     return Scaffold(
       body: PageStorage(
         bucket: bucket,
