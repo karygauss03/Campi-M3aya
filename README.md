@@ -23,8 +23,3 @@ These are some screenshots from the alpha version of the app.
 <img src="https://user-images.githubusercontent.com/72917840/149404128-1ffac258-327b-4066-a202-a83c1133901d.jpg" width="400" height="900"/>
 <img src="https://user-images.githubusercontent.com/72917840/149404137-58b149c9-a00b-46f8-8c0c-3179508c0fe8.jpg" width="400" height="900"/>
 <img src="https://user-images.githubusercontent.com/72917840/149404141-5cab17cc-5dcc-40c4-8963-08d1f2b73572.jpg" width="400" height="900"/>
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
